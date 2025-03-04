@@ -1,0 +1,7 @@
+.project-details{
+    width: 100%;
+    height: 100vh;
+     color: white;
+    background: linear-gradient(rgba(42, 92, 130, 0.9), rgba(42, 92, 130, 0.9)) center/cover;
+    flex-direction: column;
+}

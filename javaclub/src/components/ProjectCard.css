@@ -1,0 +1,66 @@
+
+  /* Buttons */
+  .btn {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  .btn:hover {
+    background: #0056b3;
+  }
+  
+
+  
+  /* Projects Page */
+  .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+ 
+  }
+
+  .projects-page h1{
+    color: white;
+  }
+  
+  /* Project Card */
+  .project-card {
+   width: 300px;
+   height: 240px;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: box-shadow 0.3s ease;
+    box-shadow: 2px 3px 5px black;
+    font-family: "Poppins", sans-serif;
+   
+  }
+  .project-card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .projects-page{
+    padding-top: 50px;
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background: linear-gradient(rgba(42, 92, 130, 0.9), rgba(42, 92, 130, 0.9)) center/cover;
+  }
+
+  
